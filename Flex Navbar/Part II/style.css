@@ -1,0 +1,36 @@
+.nav {
+    display: flex;
+    align-items: center;
+    background-color: #6495ed;
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    height: 125px;
+    width: 1500px;
+}
+
+img {
+    height: 75px;
+}
+
+h1 {
+    margin-left: 30px;
+    margin-right: 30px;
+    font-size: 25px;
+}
+
+ul {
+    display: flex;
+    color: #6495ed;
+}
+
+li {
+    /* flex-direction: row; */
+    /* justify-content: flex-end; */
+    margin-right: 80px;
+    margin-left: 80px;
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+}

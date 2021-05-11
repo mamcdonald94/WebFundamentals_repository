@@ -1,0 +1,17 @@
+div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.center-box {
+    background-color: #190080;
+    width: 750px;
+    height: 175px;
+}
+
+.center-item {
+    background-color: #f9e4b6;
+    width: 60px;
+    height: 60px;
+}

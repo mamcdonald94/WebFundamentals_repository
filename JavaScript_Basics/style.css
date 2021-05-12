@@ -14,7 +14,7 @@
     margin-bottom: 15px;
 }
 
-.title {
+.title { /* should be an id */
     font-weight: bold;
     font-size: x-large;
     color: #c2d6eb;
@@ -33,11 +33,15 @@
     color: white;
 }
 
+#navbar ul li ul {
+    padding-left: 15px;
+}
+
 a {
     color: #5dcbd5;
 }
 
-.content_title {
+.content_title { /* should be an id */
     font-size: large;
     font-weight: bolder;
 }
@@ -53,7 +57,11 @@ a {
     height: fit-content;
     padding: 20px;
     padding-bottom: 5px;
-    line-height: 18px;
+    line-height: 15px;
+}
+
+#content ul li {
+    margin-bottom: 10px;
 }
 
 .violet {

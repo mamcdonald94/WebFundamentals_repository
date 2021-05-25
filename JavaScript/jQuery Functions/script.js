@@ -26,6 +26,6 @@ $('#change-image5').click(function(){
     $('#change-image5').attr('src', 'images/jeffery-erhunse-5eQ-_Gebljg-unsplash.jpg')
 })
 
-$('#click').click(function(){
+$('#click').one('click', function(){
     $('#click').append('<input type="text">')
 })

@@ -1,0 +1,19 @@
+#wrapper {
+    width: 1000px;
+}
+
+#step-one {
+    /* display: flex; */
+    /* flex-direction: column; */
+}
+
+img {
+    width: 125px;
+    height: 150px;
+    /* display: inline-block; */
+}
+
+#step-two img {
+    display: none;
+}
+

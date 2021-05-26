@@ -1,5 +1,4 @@
 $('img').click(function(){
-    // $(this).hide();
     $(this).css('visibility', 'hidden');
 });
 
